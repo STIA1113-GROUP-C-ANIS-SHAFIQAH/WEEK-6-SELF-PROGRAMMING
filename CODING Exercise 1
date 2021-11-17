@@ -1,0 +1,21 @@
+public class EXERCISE1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age = 20;
+		double height = 170;
+		double weight = 50.0 ;
+		boolean married = false;
+		char gender = 'm';
+		
+		System.out.println(!married && (gender == 'm'));
+		System.out.println((age >= 21) || (age <= 35 ));
+		System.out.println((height >= 180) && (weight >= 70) && (weight <= 80));
+		
+		System.out.println(!married && (gender =='m') && (age >= 21)|| (age <= 35) && (height >= 180) && (weight >= 70)||(weight <= 80));
+		
+
+	}
+
+}
