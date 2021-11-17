@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double score;
+		
+		Scanner scanMe = new Scanner (System.in);
+		System.out.println("Your score : ");
+		score = scanMe.nextDouble();
+		
+		if (score >= 80.00) {
+		       System.out.println("Your grade is A");
+		    }
+		    else if ((score >= 60.00)&&(score<=79.00)) {
+		    	System.out.println("Your grade is B");
+		    }
+		    else if ((score >= 50.00)&&(score<=59.00)){
+		    	System.out.println("Your grade is C");
+		    }
+		    else
+		    	System.out.println("FAIL !.");
+		    
+	}
+
+}
